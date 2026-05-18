@@ -39,7 +39,7 @@ export default function Appointments() {
       </div>
 
       {/* GRID */}
-      <div className="grid grid-cols-2 gap-5 mt-8">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 mt-8">
 
         {appointments.map((appointment) => (
           <AppointmentCard
