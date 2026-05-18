@@ -50,7 +50,7 @@ const menuItems = [
 
 export default function Sidebar() {
   return (
-    <div className="w-64 bg-slate-900 border-r border-slate-800 p-5">
+    <div className="w-72 min-h-screen bg-slate-900 border-r border-slate-800 p-5">
 
       <h1 className="text-2xl font-bold text-blue-400">
   Paxzillion ERP
